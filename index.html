@@ -1,95 +1,103 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Photoblog</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/syle.css">
+
     <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/syle.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container flex">
+        <div class="container margin-top">
             <nav class="navigation">
                 <ul class="navigation-list flex">
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="">LIFESTYLE</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="">PHOTODIARY</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="">MUSIC</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="">TRAVEL</a>
-                    </li>
+                    <li class="navigation-item"><a class="navigation-link" href="./index.html">LIFESTYLE</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="./index.html">PHOTODIARY</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="./index.html">MUSIC</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="./index.html">TRAVEL</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <section class="galery">
-            <div class="container ">
+            <div class="container margin-bottom">
                 <!-- <h1>Photoblog</h1> -->
-                <ul class="galery-list">
+                <ul class="galery-list flex-wrap">
                     <li class="galery-item">
-                        <img class="galery-img" src="./images/music-festival.jpg" alt="music festival" width="420">
-                        <a class="galery-link" href="">LIFESTYLE</a>
-                        <h2 class="galery-title">More than just a music festival </h2>
-                        <p class="galery-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <img class="galery-img" src="./images/music-festival.jpg" alt="Music festival">
+                        <a class="galery-link" href="./index.html">LIFESTYLE</a>
+                        <p class="galery-title">More than just a music festival</p>
+                        <p class="galery-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo enim, cum soluta nostrum omnis corrupti. Non esse, beatae deleniti quod,
+                            nemo iusto sed porro iste, itaque error tempora est voluptatibus.
+                        </p>
                     </li>
                     <li class="galery-item">
-                        <img src="./images/coffee.jpg" alt="coffee" width="420">
-                        <a class="galery-link" href="">LIFESTYLE</a>
-                        <h2 class="galery-title">Life tastes better with coffee</h2>
-                        <p class="galery-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <img class="galery-img" src="./images/coffee.jpg" alt="Coffee">
+                        <a class="galery-link" href="./index.html">LIFESTYLE</a>
+                        <p class="galery-title">Life tastes better with coffee</p>
+                        <p class="galery-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo enim, cum soluta nostrum omnis corrupti. Non esse, beatae deleniti quod,
+                            nemo iusto sed porro iste, itaque error tempora est voluptatibus.
+                        </p>
                     </li>
                     <li class="galery-item">
-                        <img src="./images/american-dream.jpg" alt="american dream" width="420">
-                        <a class="galery-link" href="">LIFESTYLE</a>
-                        <h2 class="galery-title">American dream</h2>
-                        <p class="galery-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <img class="galery-img" src="./images/american-dream.jpg" alt="American dream">
+                        <a class="galery-link" href="./index.html">PHOTODIARY</a>
+                        <p class="galery-title">American dream</p>
+                        <p class="galery-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo enim, cum soluta nostrum omnis corrupti. Non esse, beatae deleniti quod,
+                            nemo iusto sed porro iste, itaque error tempora est voluptatibus.
+                        </p>
                     </li>
                     <li class="galery-item">
-                        <img src="./images/alps.jpg" alt="Alps" width="420">
-                        <a class="galery-link" href="">LIFESTYLE</a>
-                        <h2 class="galery-title">A day exploring the Alps</h2>
-                        <p class="galery-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <img class="galery-img" src="./images/alps.jpg" alt="Alps">
+                        <a class="galery-link" href="./index.html">PHOTODIARY</a>
+                        <p class="galery-title">A day exploring the Alps</p>
+                        <p class="galery-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo enim, cum soluta nostrum omnis corrupti. Non esse, beatae deleniti quod,
+                            nemo iusto sed porro iste, itaque error tempora est voluptatibus.
+                        </p>
                     </li>
                     <li class="galery-item">
-                        <img src="./images/song-for-running.jpg" alt="song for running" width="420">
-                        <a class="galery-link" href="">LIFESTYLE</a>
-                        <h2 class="galery-title">Top 10 song for running</h2>
-                        <p class="galery-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <img class="galery-img" src="./images/song-for-running.jpg" alt="running">
+                        <a class="galery-link" href="./index.html">LIFESTYLE</a>
+                        <p class="galery-title">Top 10 song for running</p>
+                        <p class="galery-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo enim, cum soluta nostrum omnis corrupti. Non esse, beatae deleniti quod,
+                            nemo iusto sed porro iste, itaque error tempora est voluptatibus.
+                        </p>
                     </li>
                     <li class="galery-item">
-                        <img src="./images/cold-winter-days.jpg" alt="cold winter days" width="420">
-                        <a class="galery-link" href="">LIFESTYLE</a>
-                        <h2 class="galery-title">Cold winter days</h2>
-                        <p class="galery-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <img class="galery-img" src="./images/cold-winter-days.jpg" alt="Cold winter days">
+                        <a class="galery-link" href="./index.html">LIFESTYLE</a>
+                        <p class="galery-title">Cold winter days</p>
+                        <p class="galery-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo enim, cum soluta nostrum omnis corrupti. Non esse, beatae deleniti quod,
+                            nemo iusto sed porro iste, itaque error tempora est voluptatibus.
+                        </p>
                     </li>
                 </ul>
                 <button class="galery-button">Load more</button>
