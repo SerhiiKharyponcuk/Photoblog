@@ -1,0 +1,45 @@
+//? ============= var-00. CSS-змінні ============
+// :root {
+//     --active-link-color: #03a9f4;
+//     --link-color: #7d7d7d;
+//     --main-color: #626262;
+//     --second-color: #b4ad9e;
+
+//     --font-family: "Playfair Display", sans-serif;
+//     --second-family: "Ubuntu", sans-serif;
+// }
+
+//? ============= var-01. SCSS-змінні ============
+//* ================= fonts ===================
+    $font-family: "Playfair Display", sans-serif;
+    $second-family: "Ubuntu", sans-serif;
+//* ================= colors ==================
+    $active-link-color: #03a9f4;
+    $link-color: #7d7d7d;
+    $main-color: #626262;
+    $second-color: #b4ad9e;
+
+     //? ==============  var-02. map-get ==============
+
+    $fonts: (
+    font-family: "Playfair Display",
+    second-family: "Ubuntu",
+
+
+    );
+    $colors:(
+    active-link-color: #03a9f4,
+    // link-color: #7d7d7d,
+    link-color: red,
+    main-color: #626262,
+    second-color: #b4ad9e,
+
+    );
+    @function getFont($key) {
+    @return map-get($fonts, $key);
+}
+// * ================= colors ==================
+    @function getColor($key) {
+    @return map-get($colors, $key);
+}
+

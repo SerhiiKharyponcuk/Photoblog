@@ -1,0 +1,35 @@
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margin-top {
+    margin-top: 71px;
+}
+.navigation-list {
+    margin-bottom: 92px;
+}
+
+.navigation-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.navigation-link {
+    font-family: getFont('font-family');
+    /* font-weight: 400; */
+    // color: var(--link-color);
+    // color: red;
+    // color: $link-color;
+//    color: map-get($colors, 'link-color');
+    color: getColor('link-color');
+}
+
+.navigation-link:hover {
+    color: getColor('active-link-color');
+}

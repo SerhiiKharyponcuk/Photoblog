@@ -1,3 +1,7 @@
 @import "./base/reset";
-@import "./layout/style";
-
+// @import "./layout/style";
+@import "./utils/variables";
+@import "./base/common";
+@import "./components/containers";
+@import "./layout/01-header";
+@import "./layout/02-gallery";
